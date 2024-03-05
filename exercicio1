@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livrai-me da maldição</title>
+</head>
+<body>
+    
+
+<?php
+
+$nomeFunc = 'Antonio Lacerda';
+
+$salarioFunc = 1750;
+echo("$nomeFunc possui o salário de: R$".$salarioFunc);
+
+$porcentAumento = 1.35;
+
+$salarioFunc = $salarioFunc * $porcentAumento;
+
+print("Com o aumento, $nomeFunc tem um salário de: R$".$salarioFunc);
+
+?>
+</body>
+</html>
